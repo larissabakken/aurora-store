@@ -1,0 +1,279 @@
+{
+  "logo": "https://cdn1.umg3.net/1229/files/2022/12/aurora-logo3-300x60.png",
+  "products": [
+    {
+      "id": 1,
+      "name": "The Gods We Can Touch",
+      "price": 145.99,
+      "promotion": true,
+      "promotion_price": 109.99,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.fOO4pzxX/SharedImage-126573.png?t=09a952b5a595550ec77b "
+        },
+        {
+          "id": 2,
+          "url": "https://th.bing.com/th/id/R.4c445b26eb953b86e03a263ec9abf1c2?rik=R%2b%2bklUje5DTfdw&pid=ImgRaw&r=0"
+        }
+      ],
+      "category": "CD",
+      "quantity": 300,
+      "description": "The Gods We Can Touch is the fourth album by the Norwegian singer Aurora. It was released on 21 January."
+    },
+    {
+      "id": 2,
+      "name": "The Gods We Can Touch",
+      "price": 245.99,
+      "promotion": true,
+      "promotion_price": 209.99,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.fs3N74xX/SharedImage-126629.png?t=79af53c3d77ec4c69064"
+        },
+        {
+          "id": 2,
+          "url": "https://th.bing.com/th/id/R.4c445b26eb953b86e03a263ec9abf1c2?rik=R%2b%2bklUje5DTfdw&pid=ImgRaw&r=0"
+        }
+      ],
+      "category": "Vinyl",
+      "quantity": 200,
+      "description": "The Gods We Can Touch is the fourth album by the Norwegian singer Aurora. It was released on 21 January."
+    },
+    {
+      "id": 3,
+      "name": "THE GODS WE CAN TOUCH CD & SIGNED ART CARD",
+      "price": 245.99,
+      "promotion": false,
+      "promotion_price": 245.99,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.fOO4pzxX/SharedImage-126573.png?t=09a952b5a595550ec77b "
+        },
+        {
+          "id": 2,
+          "url": "https://th.bing.com/th/id/R.4c445b26eb953b86e03a263ec9abf1c2?rik=R%2b%2bklUje5DTfdw&pid=ImgRaw&r=0"
+        }
+      ],
+      "category": "CD",
+      "quantity": 200,
+      "description": "The Gods We Can Touch is the fourth album by the Norwegian singer Aurora. It was released on 21 January."
+    },
+    {
+      "id": 4,
+      "name": "The Gods We Can Touch Eros Vinyl",
+      "price": 245.99,
+      "promotion": false,
+      "promotion_price": 245.99,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.f9h0YY5X/SharedImage-130043.png?t=344260cf8b45bbd9ed84"
+        },
+        {
+          "id": 2,
+          "url": "https://content-cdn.stackla.com/2136/63f8f2f1c541106f41939e4c/image"
+        }
+      ],
+      "category": "Vinyl",
+      "quantity": 200,
+      "description": "The Gods We Can Touch is the fourth album by the Norwegian singer Aurora. It was released on 21 January."
+    },
+    {
+      "id": 5,
+      "name": "The Gods We Can Touch Bookmark",
+      "price": 45.99,
+      "promotion": false,
+      "promotion_price": 45.99,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.f5WlYj0X/SharedImage-128365.png?t=5dbe6ec0d6294080186a"
+        },
+        {
+          "id": 2,
+          "url": "https://i.redd.it/l1vtosh2ro881.jpg"
+        }
+      ],
+      "category": "others",
+      "quantity": 200,
+      "description": "The Gods We Can Touch is the fourth album by the Norwegian singer Aurora. It was released on 21 January."
+    },
+    {
+      "id": 6,
+      "name": "The Gods We Can Touch T-Shirt",
+      "price": 145.99,
+      "promotion": false,
+      "promotion_price": 145.99,
+      "image": [
+        {
+          "id": 1,
+          "url": "hhttps://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.fkHfqvxX/SharedImage-126551.png?t=98760d129cb7eaa0fa35"
+        },
+        {
+          "id": 2,
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/imageFull/.fsa6-5xX/SharedImage-126674.png?t=a0b83f8d359d1da122a5"
+        }
+      ],
+      "category": "others",
+      "quantity": 200,
+      "description": "The Gods We Can Touch is the fourth album by the Norwegian singer Aurora. It was released on 21 January."
+    },
+    {
+      "id": 7,
+      "name": "The Gods We Can Touch Hoddie",
+      "price": 245.99,
+      "promotion": true,
+      "promotion_price": 195.99,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.faMjcvxX/SharedImage-126545.png?t=18177bf665ddc0d49be7"
+        },
+        {
+          "id": 2,
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.fiNjcvxX/SharedImage-126546.png?t=7a987160847e31628373"
+        }
+      ],
+      "category": "others",
+      "quantity": 200,
+      "description": "The Gods We Can Touch is the fourth album by the Norwegian singer Aurora. It was released on 21 January."
+    },
+    {
+      "id": 8,
+      "name": "Triptich album art Ecru t-shirt",
+      "price": 105.99,
+      "promotion": false,
+      "promotion_price": 105.99,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.fHd6ovxX/SharedImage-126550.png?t=8d16b7268b8d435a7816"
+        }
+      ],
+      "category": "others",
+      "quantity": 200,
+      "description": "The Gods We Can Touch is the fourth album by the Norwegian singer Aurora. It was released on 21 January."
+    },
+    {
+      "id": 9,
+      "name": "The Gods we Can Touch Track List Hoodie",
+      "price": 245.99,
+      "promotion": true,
+      "promotion_price": 195.99,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.fAaelvxX/SharedImage-126547.png?t=787869d92abda8022231"
+        },
+        {
+          "id": 2,
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/imageFull/.fcbelvxX/SharedImage-126548.png?t=6c87a5d68d076f336e81"
+        }
+      ],
+      "category": "others",
+      "quantity": 20,
+      "description": "The Gods We Can Touch is the fourth album by the Norwegian singer Aurora. It was released on 21 January."
+    },
+    {
+      "id": 10,
+      "name": "Triptich album art Ecru t-shirt",
+      "price": 105.99,
+      "promotion": false,
+      "promotion_price": 105.99,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.fHd6ovxX/SharedImage-126550.png?t=8d16b7268b8d435a7816"
+        }
+      ],
+      "category": "others",
+      "quantity": 200,
+      "description": "The Gods We Can Touch is the fourth album by the Norwegian singer Aurora. It was released on 21 January."
+    },
+    {
+      "id": 11,
+      "name": "All my Demons Greeting me as a Friend",
+      "price": 105.1,
+      "promotion": false,
+      "promotion_price": 105.1,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://images-na.ssl-images-amazon.com/images/I/71V0M7b3gNL._AC_SX569_.jpg"
+        },
+        {
+          "id": 2,
+          "url": "https://th.bing.com/th/id/R.6fb3c2adb396c90b19abffa9b8732659?rik=Q%2f8%2fHP9ggV4OCw&riu=http%3a%2f%2fcps-static.rovicorp.com%2f3%2fJPG_500%2fMI0004%2f033%2fMI0004033843.jpg%3fpartner%3dallrovi.com&ehk=0HKw51wJFP1aJbjrRijMI1fkfgqAojwH3JXsRBvAngs%3d&risl=&pid=ImgRaw&r=0"
+        }
+      ],
+      "category": "CD",
+      "quantity": 200,
+      "description": "All my Demons Greeting me as a Friend is the first album by the Norwegian singer Aurora."
+    },
+    {
+      "id": 12,
+      "name": "A Different Kind of Human",
+      "price": 105.16,
+      "promotion": false,
+      "promotion_price": 105.16,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://th.bing.com/th/id/OIP.qhV1_ZwVyjSfiM3bEFp70gHaHa?pid=ImgDet&rs=1"
+        },
+        {
+          "id": 2,
+          "url": "https://th.bing.com/th/id/R.a9d3a6be762e62f39507808c412fbc2c?rik=sAaIAVueyhIG0g&riu=http%3a%2f%2fgaytimes.co.uk%2fwp-content%2fuploads%2f2019%2f07%2fAurora-header.jpg&ehk=dVIaZraa%2bFI8s8XrxGMBJJtrfFHmCbhETkRs8AW%2fh9A%3d&risl=&pid=ImgRaw&r=0"
+        }
+      ],
+      "category": "CD",
+      "quantity": 200,
+      "description": "A Different Kind of Human is the second album by the Norwegian singer Aurora."
+    },
+    {
+      "id": 13,
+      "name": "Infections of a Different Kind",
+      "price": 105.16,
+      "promotion": false,
+      "promotion_price": 105.16,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://th.bing.com/th/id/OIP.jsuCvCuR1anoEFY86W0piwHaHa?pid=ImgDet&rs=1"
+        },
+        {
+          "id": 2,
+          "url": "https://i.pinimg.com/736x/fd/06/6b/fd066b7bf187951a11a9b81147db9861.jpg"
+        }
+      ],
+      "category": "CD",
+      "quantity": 200,
+      "description": "Infections of a Different Kind is the third album by the Norwegian singer Aurora."
+    },
+    {
+      "id": 14,
+      "name": "A Different Kind of Human - Vinyl",
+      "price": 405.16,
+      "promotion": false,
+      "promotion_price": 405.16,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://th.bing.com/th/id/OIP.qhV1_ZwVyjSfiM3bEFp70gHaHa?pid=ImgDet&rs=1"
+        },
+        {
+          "id": 2,
+          "url": "https://images-na.ssl-images-amazon.com/images/I/71dxd00RTSL._SL1500_.jpg"
+        }
+      ],
+      "category": "Vinyl",
+      "quantity": 200,
+      "description": "A Different Kind of Human is the second album by the Norwegian singer Aurora."
+    }
+  ]
+}
+
+
