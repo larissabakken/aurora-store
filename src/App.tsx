@@ -7,12 +7,14 @@ export default function App() {
   const [groupPromotion, setGroupPromotion] = useState([]);
   const [groupOthers, setGroupOthers] = useState([]);
   const [groupRecords, setGroupRecords] = useState([]);
+  const [logo, setLogo] = useState("");
 
   useEffect(() => {
     fetch("/products.json")
       .then((response) => response.json())
       .then((data) => {
         setProducts(data.products);
+        setLogo(data.logo);
       })
       .catch((error) => console.error(error));
   }, []);
@@ -42,28 +44,16 @@ export default function App() {
 
   return (
     <>
+      <div className="flex justify-center items-center m-10">
+        <img src={logo} alt="Aurora" />
+      </div>
       <div>
-      <div>
-          <h1>Promotions</h1>
+        <div className="my-[5rem]">
+          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[2rem]">
+            <span className="ml-6">Promotions</span>
+          </div>
           <CardProducts data={groupPromotion} />
         </div>
-        {/* <div>
-          <h1>Products</h1>
-          <CardProducts data={products} />
-        </div> */}
-
-        {/* <ShelfShows /> */}
-        
-
-        {/* <ul>
-          {products.map((product: any) => (
-            <li key={product.id}>
-              <h2>{product.name}</h2>
-              <p>{product.description}</p>
-              <p>{product.price}</p>
-            </li>
-          ))}
-        </ul> */}
       </div>
     </>
   );
