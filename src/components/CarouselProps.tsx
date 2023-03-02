@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import styles from './Components.module.css';
+import React, { useState } from "react";
+import styles from "./Components.module.css";
 
 interface CarouselProps {
   images: string[];
@@ -18,13 +18,19 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
     setCurrentImageIndex(newIndex);
   };
 
+  const imageUrl = images.map((image) => image.url);
+
   return (
     <div className="aspect-w-1 aspect-h-1 w-[20rem] overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
-      
-      <img className="h-full w-full object-cover object-center group-hover:opacity-75" src={images[currentImageIndex]} />
+      <img
+        className="h-full w-full object-cover object-center group-hover:opacity-75"
+        src={imageUrl[currentImageIndex]}
+      />
       <div className="flex">
-      <button onClick={prevImage}>Prev</button>
-      <button className="right" onClick={nextImage}>Next</button>
+        <button onClick={prevImage}>Prev</button>
+        <button className="right" onClick={nextImage}>
+          Next
+        </button>
       </div>
     </div>
   );
