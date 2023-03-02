@@ -50,19 +50,19 @@ export default function App() {
       </div>
       <div>
         <div className="my-[5rem]">
-          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[2rem]">
+          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[8%]">
             <span className="ml-6">Promotions</span>
           </div>
           <CardProducts dataCard={groupPromotion} />
         </div>
         <div className="my-[5rem]">
-          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[2rem]">
+          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[8%]">
             <span className="ml-6">Records</span>
           </div>
           <CardProducts dataCard={groupRecords} />
         </div>
         <div className="my-[5rem]">
-          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[2rem]">
+          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[8%]">
             <span className="ml-6">Others</span>
           </div>
           <CardProducts dataCard={groupOthers} />
