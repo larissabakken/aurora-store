@@ -1,27 +1,30 @@
 import React, { useState } from "react";
+import { ImagesProps } from "../utils/types";
+
+
 
 interface CarouselProps {
-  images: string[];
+  dataCarousel: ImagesProps[];
 }
 
-const Carousel: React.FC<CarouselProps> = ({ images }) => {
+const Carousel = ({ dataCarousel }: CarouselProps) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const nextImage = () => {
-    const newIndex = (currentImageIndex + 1) % images.length;
+    const newIndex = (currentImageIndex + 1) % dataCarousel.length;
     setCurrentImageIndex(newIndex);
   };
 
   const prevImage = () => {
-    const newIndex = (currentImageIndex - 1 + images.length) % images.length;
+    const newIndex = (currentImageIndex - 1 + dataCarousel.length) % dataCarousel.length;
     setCurrentImageIndex(newIndex);
   };
 
-  const imageUrl = images.map((image) => image.url);
+  const imageUrl = dataCarousel.map((image) => image.url);
 
   return (
-    <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg xl:aspect-w-7 xl:aspect-h-8">
-      <div className="bg-gray-100 flex items-center justify-center">
+    <div className="aspect-w-1 aspect-h-1 overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+      <div className=" flex items-center justify-center">
         <img
           className="w-full object-cover object-center group-hover:opacity-75"
           src={imageUrl[currentImageIndex]}
