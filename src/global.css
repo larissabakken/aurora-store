@@ -4,7 +4,17 @@
 
 
 :root {
-  --color-primary: #f00;
-  --color-secondary: #0f0;
-  --color-tertiary: #00f;
+  --color-primary: #ad8e30;
+  --color-secondary: #8b2424fb;
+  --color-bg-card: #31343ad0;
+  --color-section: #8b2424bb;
+}
+
+html,
+body {
+  @apply bg-[var(--color-primary)] text-white font-sans;
+}
+
+h1 {
+  @apply text-4xl font-bold text-start ;
 }
