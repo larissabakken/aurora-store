@@ -18,7 +18,7 @@ const CardProducts = (props: CardProductsProps) => {
       <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {products.map((product, index) => (
-            <div key={index} className="bg-gray-200 w-full rounded-lg shadow-md hover:shadow-2xl">
+            <div key={index} className="bg-[var(--color-bg-card)] w-full rounded-2xl shadow-2xl hover:shadow-[var(--color-shadow)]">
               <CarouselProps dataCarousel={product.image} />
               <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
               {product.promotion === true ? (

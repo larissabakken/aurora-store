@@ -4,10 +4,11 @@
 
 
 :root {
-  --color-primary: #ad8e30;
+  --color-primary: #1e1d22;
   --color-secondary: #8b2424fb;
-  --color-bg-card: #31343ad0;
+  --color-bg-card: #b99a3c;
   --color-section: #8b2424bb;
+  --color-shadow: #000000;
 }
 
 html,
