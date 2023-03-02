@@ -10,7 +10,7 @@
       "image": [
         {
           "id": 1,
-          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.fOO4pzxX/SharedImage-126573.png?t=09a952b5a595550ec77b "
+          "url": "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image600/.fOO4pzxX/SharedImage-126573.png?t=09a952b5a595550ec77b"
         },
         {
           "id": 2,
@@ -105,8 +105,8 @@
       "id": 6,
       "name": "The Gods We Can Touch T-Shirt",
       "price": 145.99,
-      "promotion": false,
-      "promotion_price": 145.99,
+      "promotion": true,
+      "promotion_price": 95.99,
       "image": [
         {
           "id": 1,
@@ -197,8 +197,8 @@
       "id": 11,
       "name": "All my Demons Greeting me as a Friend",
       "price": 105.1,
-      "promotion": false,
-      "promotion_price": 105.1,
+      "promotion": true,
+      "promotion_price": 75.90,
       "image": [
         {
           "id": 1,
@@ -237,8 +237,8 @@
       "id": 13,
       "name": "Infections of a Different Kind",
       "price": 105.16,
-      "promotion": false,
-      "promotion_price": 105.16,
+      "promotion": true,
+      "promotion_price": 85.16,
       "image": [
         {
           "id": 1,
