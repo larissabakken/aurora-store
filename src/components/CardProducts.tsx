@@ -3,15 +3,15 @@ import CarouselProps from "./CarouselProps";
 import { DataItem, ImagesProps } from "../utils/types";
 
 interface CardProductsProps {
-  data: DataItem[];
+  dataCard: DataItem[];
 }
 
 const CardProducts = (props: CardProductsProps) => {
   const [products, setProducts] = useState<DataItem[]>([]);
 
   useEffect(() => {
-    setProducts(props.data);
-  }, [props.data]);
+    setProducts(props.dataCard);
+  }, [props.dataCard]);
 
   return (
     <>

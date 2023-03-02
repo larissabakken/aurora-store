@@ -1,13 +1,16 @@
 import { useState, useEffect } from "react";
 import CardProducts from "./components/CardProducts";
 import ShelfShows from "./components/ShelfConcerts";
+import { DataItem } from "./utils/types";
+
 
 export default function App() {
-  const [products, setProducts] = useState([]);
-  const [groupPromotion, setGroupPromotion] = useState([]);
-  const [groupOthers, setGroupOthers] = useState([]);
-  const [groupRecords, setGroupRecords] = useState([]);
-  const [logo, setLogo] = useState("");
+  const [products, setProducts] = useState<DataItem[]>([]);
+  const [groupPromotion, setGroupPromotion] = useState<DataItem[]>([]);
+  const [groupOthers, setGroupOthers] = useState<DataItem[]>([]);
+  const [groupRecords, setGroupRecords] = useState<DataItem[]>([]);
+  const [logo, setLogo] = useState<string>("");
+  
 
   useEffect(() => {
     fetch("/products.json")
@@ -52,7 +55,7 @@ export default function App() {
           <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[2rem]">
             <span className="ml-6">Promotions</span>
           </div>
-          <CardProducts data={groupPromotion} />
+          <CardProducts dataCard={groupPromotion} />
         </div>
       </div>
     </>
