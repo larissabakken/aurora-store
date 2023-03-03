@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --color-primary: #1e1d22;
   --color-secondary: #8b2424fb;
@@ -17,5 +16,6 @@ body {
 }
 
 h1 {
-  @apply text-4xl font-bold text-start ;
+  @apply text-4xl font-bold text-start;
 }
+

@@ -3,14 +3,15 @@ import CardConcerts from "./CardConcerts";
 
 interface TourDate {
   address?: string;
-  formatted_start_date?: string;
+  formattedStartDate?: string;
   date: Date;
-  venue_name?: string;
+  venueName?: string;
   id: number;
 }
 
-export default function ShelfConcerts() {
+const ShelfConcerts = () => {
   const [tourDates, setTourDates] = useState<TourDate[]>([]);
+
   useEffect(() => {
     const fetchTourDates = async () => {
       try {
@@ -19,16 +20,16 @@ export default function ShelfConcerts() {
         );
         const data = await response.json();
 
-        const dates: TourDate[] = data.included.map((obj: any) => {
-          return {
-            venue_name: obj["attributes"]["venue-name"],
-            formatted_start_date: obj["attributes"]["starts-at-short"],
-            date: obj["attributes"]["starts-at"],
-            address: obj["attributes"]["formatted-address"],
-          };
-        });
+        const dates: TourDate[] = data.included.map((obj: any) => ({
+          //optional chaining and nullish coalescing operator to avoid errors
+          venueName: obj?.attributes?.["venue-name"] || "",
+          formattedStartDate: obj?.attributes?.["starts-at-short"] || "",
+          date: new Date(obj?.attributes?.["starts-at"]),
+          address: obj?.attributes?.["formatted-address"] || "",
+          id: obj.id,
+        }));
 
-        dates.sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+        dates.sort((a, b) => a.date.getTime() - b.date.getTime());
         setTourDates(dates);
       } catch (error) {
         console.error(error);
@@ -41,12 +42,15 @@ export default function ShelfConcerts() {
     <div>
       {tourDates.map((item: TourDate, index: number) => (
         <CardConcerts
-          key={index}
-          description={item.venue_name}
-          address={item.address}
-          concertDate={item.formatted_start_date}
+          key={item.id}
+          //the nullish coalescing operator to provide default values
+          description={item.venueName || ""}
+          address={item.address || ""}
+          concertDate={item.formattedStartDate || ""}
         />
       ))}
     </div>
   );
-}
+};
+
+export default ShelfConcerts;

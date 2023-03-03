@@ -272,6 +272,26 @@
       "category": "Vinyl",
       "quantity": 200,
       "description": "A Different Kind of Human is the second album by the Norwegian singer Aurora."
+    },
+    {
+      "id": 15,
+      "name": "A Different Kind of Human - Vinyl Deluxe",
+      "price": 405.16,
+      "promotion": false,
+      "promotion_price": 405.16,
+      "image": [
+        {
+          "id": 1,
+          "url": "https://th.bing.com/th/id/OIP.qhV1_ZwVyjSfiM3bEFp70gHaHa?pid=ImgDet&rs=1"
+        },
+        {
+          "id": 2,
+          "url": "https://images-na.ssl-images-amazon.com/images/I/71dxd00RTSL._SL1500_.jpg"
+        }
+      ],
+      "category": "Vinyl",
+      "quantity": 0,
+      "description": "A Different Kind of Human is the second album by the Norwegian singer Aurora."
     }
   ]
 }
