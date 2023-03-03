@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import CarouselProps from "./CarouselProps";
+import FavoriteButton from "./FavoriteButton";
 import { DataItem } from "../utils/types";
 
 interface CardProductsProps {
@@ -20,8 +21,12 @@ const CardProducts = (props: CardProductsProps) => {
           {products.map((product, index) => (
             <div
               key={index}
-              className="bg-[var(--color-bg-card)] w-full rounded-2xl shadow-2xl hover:shadow-[var(--color-shadow)]"
+              className="bg-[var(--color-bg-card)] w-full rounded-2xl shadow-2xl hover:shadow-[var(--color-shadow)] relative"
             >
+              <div className="w-full absolute top-[5%] left-5" >
+                <FavoriteButton />
+              </div>
+
               <CarouselProps dataCarousel={product.image} />
               <div className="mx-4 my-3">
                 <h3 className="mt-4 text-sms text-gray-700">{product.name}</h3>
