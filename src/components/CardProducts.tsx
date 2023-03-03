@@ -36,7 +36,7 @@ const CardProducts = (props: CardProductsProps) => {
                 </p>
                 {product.promotion === true ? (
                   <div className="flex">
-                    <span className="mt-1 text-sm font-medium text-red-600 line-through mr-2">
+                    <span className="mt-1 text-lg font-thin text-white line-through mr-2">
                       {product.price.toLocaleString("pt-BR", {
                         style: "currency",
                         currency: "BRL",
