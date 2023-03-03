@@ -74,40 +74,40 @@ export default function App() {
       <div>
         {/* Promotions */}
         <div className="my-[5rem]">
-          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[8%]">
-            <span className="ml-6">Promotions</span>
+          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl w-min mx-5">
+            <span className="px-20">Promotions</span>
           </div>
           <CardProducts dataCard={groupPromotion} />
         </div>
 
         {/* Records */}
         <div className="my-[5rem]">
-          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[8%]">
-            <span className="ml-6">Records</span>
+          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl w-min mx-5">
+            <span className="px-20">Records</span>
           </div>
           <CardProducts dataCard={groupRecords} />
         </div>
 
         {/* Others */}
         <div className="my-[5rem]">
-          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[8%]">
-            <span className="ml-6">Others</span>
+          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl w-min mx-5">
+            <span className="px-20">Others</span>
           </div>
           <CardProducts dataCard={groupOthers} />
         </div>
 
         {/* Sold Out */}
         <div className="my-[5rem]">
-          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[8%]">
-            <span className="ml-6">Sold Out</span>
+          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl w-min mx-5">
+            <p className="px-20">Sold</p>
           </div>
           <CardProducts dataCard={soldOut} />
         </div>
 
         {/* Concerts */}
         <div className="my-[5rem]">
-          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl mx-[8%]">
-            <span className="ml-6">Concerts</span>
+          <div className="bg-[var(--color-section)] py-[1rem] rounded-3xl w-min mx-5">
+            <span className="px-20">Concerts</span>
           </div>
           <ShelfConcerts />
         </div>

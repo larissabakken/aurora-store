@@ -18,7 +18,7 @@ const CardConcerts: React.FC<Props> = ({
       </span>
       <span className="w-1/4 truncate">{address}</span>
       <span className="w-1/4 truncate">{concertDate}</span>
-      <button className="w-1/4 truncate px-4 py-2 border bg-gradient-to-r from-primary-color to-secondary-color text-white rounded-md shadow-2xl hover:shadow-hover-color hover:scale-110">
+      <button className="w-1/4 truncate px-4 py-2 border bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)] text-white rounded-md shadow-2xl hover:shadow-hover-color hover:scale-110">
         Tickets to buy
       </button>
     </div>
