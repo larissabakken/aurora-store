@@ -31,13 +31,6 @@ const Carousel = ({ dataCarousel }: CarouselProps) => {
 
   return (
     <div>
-      {/* button to show the previous image */}
-      <button
-        className="absolute left-0 top-1/3 transform -translate-y-1/2 py-20 px-5"
-        onClick={prevImage}
-      >
-        <BsFillArrowLeftCircleFill size={20} />
-      </button>
       <div className="aspect-w-1 aspect-h-1 overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
         {/* display the current image */}
         <div className="flex items-center justify-center hover:scale-110">
@@ -47,6 +40,13 @@ const Carousel = ({ dataCarousel }: CarouselProps) => {
             alt="Product image"
           />
         </div>
+        {/* button to show the previous image */}
+        <button
+          className="absolute left-0 top-1/3 transform -translate-y-1/2 py-20 px-5"
+          onClick={nextImage}
+        >
+          <BsFillArrowLeftCircleFill size={20} />
+        </button>
 
         {/* button to show the next image */}
         <button

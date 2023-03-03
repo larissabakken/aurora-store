@@ -27,13 +27,13 @@ const CardProducts = (props: CardProductsProps) => {
               key={index}
               className="bg-[var(--color-bg-card)] w-full rounded-2xl shadow-2xl hover:shadow-[var(--color-shadow)] relative"
             >
-              {/* Favorite button */}
-              <div className="w-full absolute top-[5%] left-5">
-                <FavoriteButton />
-              </div>
-
               {/* Product images */}
               <CarouselProps dataCarousel={product.image} />
+
+              {/* Favorite button */}
+              <div className="w-full absolute top-[5%] left-5">
+                  <FavoriteButton />
+                </div>
 
               {/* Product details */}
               <div className="mx-4 my-3 h-[8rem] relative">
