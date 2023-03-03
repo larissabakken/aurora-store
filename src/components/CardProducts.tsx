@@ -24,22 +24,25 @@ const CardProducts = (props: CardProductsProps) => {
               key={index}
               className="bg-[var(--color-bg-card)] w-full rounded-2xl shadow-2xl hover:shadow-[var(--color-shadow)] relative"
             >
-              <div className="w-full absolute top-[5%] left-5" >
+              <div className="w-full absolute top-[5%] left-5">
                 <FavoriteButton />
               </div>
 
               <CarouselProps dataCarousel={product.image} />
-              <div className="mx-4 my-3">
-                <h3 className="mt-4 text-sms text-gray-700">{product.name}</h3>
+
+              <div className="mx-4 my-3 h-[8rem] relative">
+                <p className="mt-4 text-lg text-bold text-gray-700 truncate">
+                  {product.name}
+                </p>
                 {product.promotion === true ? (
-                  <div>
-                    <span className="mt-1 text-sm font-medium text-red-600 line-through">
+                  <div className="flex">
+                    <span className="mt-1 text-sm font-medium text-red-600 line-through mr-2">
                       {product.price.toLocaleString("pt-BR", {
                         style: "currency",
                         currency: "BRL",
                       })}
                     </span>
-                    <p className="text-lg font-bold text-black ">
+                    <p className="text-xl font-bold text-black">
                       {product.promotion_price.toLocaleString("pt-BR", {
                         style: "currency",
                         currency: "BRL",
@@ -47,14 +50,16 @@ const CardProducts = (props: CardProductsProps) => {
                     </p>
                   </div>
                 ) : (
-                  <p className="mt-1 text-lg font-medium text-gray-900">
+                  <p className="mt-1 text-xl font-bold text-black">
                     {product.price.toLocaleString("pt-BR", {
                       style: "currency",
                       currency: "BRL",
                     })}
                   </p>
                 )}
-                <AddCart />
+                <div className="absolute bottom-0 w-full">
+                  <AddCart />
+                </div>
               </div>
             </div>
           ))}
