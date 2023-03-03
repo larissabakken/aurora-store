@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import CarouselProps from "./CarouselProps";
 import FavoriteButton from "./FavoriteButton";
 import { DataItem } from "../utils/types";
+import AddCart from "./AddCart";
 
 interface CardProductsProps {
   dataCard: DataItem[];
@@ -53,6 +54,7 @@ const CardProducts = (props: CardProductsProps) => {
                     })}
                   </p>
                 )}
+                <AddCart />
               </div>
             </div>
           ))}

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 
-const HeartIcon = () => {
+const FavoriteButton = () => {
   const [isFavorited, setIsFavorited] = useState(false);
 
   const toggleFavorite = () => {
@@ -25,4 +25,4 @@ const HeartIcon = () => {
   );
 };
 
-export default HeartIcon;
+export default FavoriteButton;
