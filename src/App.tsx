@@ -42,14 +42,14 @@ export default function App() {
     setGroupPromotion(
       isQuantity.filter((product) => product.promotion === true)
     );
-  }, [isQuantity]);
+  }, [products]);
 
   // Filter products in the "others" category and set them as state
   useEffect(() => {
     setGroupOthers(
       isQuantity.filter((product) => product.category === "others")
     );
-  }, [isQuantity]);
+  }, [products]);
 
   // Filter products in the "CD", "Vinyl", and "Cassette" categories and set them as state
   useEffect(() => {
@@ -61,7 +61,7 @@ export default function App() {
           product.category === "Cassette"
       )
     );
-  }, [isQuantity]);
+  }, [products]);
 
   return (
     <>
